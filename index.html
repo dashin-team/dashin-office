@@ -311,51 +311,199 @@ footer small{display:block;font-size:11px;color:var(--mute)}
     "label": "頂樓・蓋大樓 管理室",
     "sub": "頂樓",
     "bots": [
-      { "name": "蓋大樓", "status": "working", "tag": "設計大樓中", "activity": "正在設計這棟辦公大樓。" }
+      {
+        "name": "蓋大樓",
+        "status": "working",
+        "tag": "設計大樓中",
+        "activity": "正在設計這棟辦公大樓。"
+      }
     ]
   },
   "floors": [
-    { "id": "5F", "name": "學習與顧問", "bots": [
-      { "name": "樊登", "status": "unknown" },
-      { "name": "郝旭烈", "status": "unknown" },
-      { "name": "許峰源", "status": "unknown" },
-      { "name": "理財小專家", "status": "unknown" },
-      { "name": "投資理財", "status": "unknown" }
-    ]},
-    { "id": "4F", "name": "內容與設計", "bots": [
-      { "name": "製作圖片", "status": "unknown" },
-      { "name": "剪輯助理", "status": "unknown" },
-      { "name": "錄音轉文字", "status": "unknown" },
-      { "name": "電視兒童", "status": "unknown" },
-      { "name": "工商時報及經濟日報", "status": "waiting", "tag": "範本等你確認", "activity": "把「每日財經新聞報報」做成範本，等你按確認後就能分享。" }
-    ]},
-    { "id": "3F", "name": "客戶經營與開發", "bots": [
-      { "name": "保險業務線上", "status": "unknown" },
-      { "name": "保險陌生開發幾種方式", "status": "unknown" },
-      { "name": "放大傳承倍數", "status": "unknown" },
-      { "name": "IG整理名單", "status": "unknown" },
-      { "name": "傳LINE訊息給多人定聯", "status": "unknown" },
-      { "name": "淑惠の客戶分類", "status": "unknown" },
-      { "name": "淑惠客戶年月曆分類", "status": "unknown" }
-    ]},
-    { "id": "2F", "name": "保險商品專區", "bots": [
-      { "name": "癌症小專家", "status": "idle", "tag": "目前待命", "activity": "剛更新完名稱，目前沒有進行中的工作。" },
-      { "name": "重大傷病小助理", "status": "waiting", "tag": "範本等你確認", "activity": "把保險行銷助理整理成範本，等你確認後可分享。" },
-      { "name": "骨折險增加", "status": "unknown" },
-      { "name": "旅平險", "status": "unknown" },
-      { "name": "車險規劃", "status": "unknown" },
-      { "name": "產品責任險", "status": "unknown" },
-      { "name": "分紅保單", "status": "unknown" },
-      { "name": "退休金試算", "status": "unknown" },
-      { "name": "在宅醫療新趨勢", "status": "unknown" }
-    ]},
-    { "id": "1F", "name": "生活與工具", "bots": [
-      { "name": "Grok Bot", "status": "working", "tag": "查接上 ChatGPT", "activity": "正在查有沒有辦法接上 ChatGPT。" },
-      { "name": "操控我mac", "status": "unknown" },
-      { "name": "旅平小幫手", "status": "unknown" },
-      { "name": "室內設計師", "status": "unknown" },
-      { "name": "人類圖分析", "status": "working", "tag": "算太陽與月亮", "activity": "安裝天文計算工具，正在算太陽與月亮的位置。" }
-    ]}
+    {
+      "id": "5F",
+      "name": "學習與顧問",
+      "bots": [
+        {
+          "name": "樊登",
+          "status": "unknown"
+        },
+        {
+          "name": "郝旭烈",
+          "status": "unknown"
+        },
+        {
+          "name": "許峰源",
+          "status": "unknown"
+        },
+        {
+          "name": "理財小專家",
+          "status": "unknown"
+        },
+        {
+          "name": "投資理財",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "4F",
+      "name": "內容與設計",
+      "bots": [
+        {
+          "name": "製作圖片",
+          "status": "unknown"
+        },
+        {
+          "name": "剪輯助理",
+          "status": "unknown"
+        },
+        {
+          "name": "錄音轉文字",
+          "status": "unknown"
+        },
+        {
+          "name": "電視兒童",
+          "status": "unknown"
+        },
+        {
+          "name": "工商時報及經濟日報",
+          "status": "waiting",
+          "tag": "範本等你確認",
+          "activity": "把「每日財經新聞報報」做成範本，等你按確認後就能分享。"
+        },
+        {
+          "name": "看圖片",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "3F",
+      "name": "客戶經營與開發",
+      "bots": [
+        {
+          "name": "保險業務線上",
+          "status": "unknown"
+        },
+        {
+          "name": "保險陌生開發幾種方式",
+          "status": "unknown"
+        },
+        {
+          "name": "放大傳承倍數",
+          "status": "unknown"
+        },
+        {
+          "name": "IG整理名單",
+          "status": "unknown"
+        },
+        {
+          "name": "傳LINE訊息給多人定聯",
+          "status": "unknown"
+        },
+        {
+          "name": "淑惠の客戶分類",
+          "status": "unknown"
+        },
+        {
+          "name": "淑惠客戶年月曆分類",
+          "status": "unknown"
+        },
+        {
+          "name": "預留稅源",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "2F",
+      "name": "保險商品專區",
+      "bots": [
+        {
+          "name": "癌症小專家",
+          "status": "idle",
+          "tag": "目前待命",
+          "activity": "剛更新完名稱，目前沒有進行中的工作。"
+        },
+        {
+          "name": "重大傷病小助理",
+          "status": "waiting",
+          "tag": "範本等你確認",
+          "activity": "把保險行銷助理整理成範本，等你確認後可分享。"
+        },
+        {
+          "name": "骨折險增加",
+          "status": "unknown"
+        },
+        {
+          "name": "旅平險",
+          "status": "unknown"
+        },
+        {
+          "name": "車險規劃",
+          "status": "unknown"
+        },
+        {
+          "name": "產品責任險",
+          "status": "unknown"
+        },
+        {
+          "name": "分紅保單",
+          "status": "unknown"
+        },
+        {
+          "name": "退休金試算",
+          "status": "unknown"
+        },
+        {
+          "name": "在宅醫療新趨勢",
+          "status": "unknown"
+        },
+        {
+          "name": "手術險",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "1F",
+      "name": "生活與工具",
+      "bots": [
+        {
+          "name": "Grok Bot",
+          "status": "working",
+          "tag": "查接上 ChatGPT",
+          "activity": "正在查有沒有辦法接上 ChatGPT。"
+        },
+        {
+          "name": "操控我mac",
+          "status": "unknown"
+        },
+        {
+          "name": "旅平出單小幫手",
+          "status": "unknown"
+        },
+        {
+          "name": "室內設計師",
+          "status": "unknown"
+        },
+        {
+          "name": "人類圖分析",
+          "status": "working",
+          "tag": "算太陽與月亮",
+          "activity": "安裝天文計算工具，正在算太陽與月亮的位置。"
+        },
+        {
+          "name": "算力計算",
+          "status": "unknown"
+        },
+        {
+          "name": "地圖跑步",
+          "status": "unknown"
+        }
+      ]
+    }
   ]
 }</script>
 <script>
